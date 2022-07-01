@@ -8,7 +8,7 @@ public class InventorySlot
     [SerializeField] private InventoryItemData itemData;
     [SerializeField] private int stackSize;
 
-    public InventoryItemData Data => itemData;
+    public InventoryItemData ItemData => itemData;
     public int StackSize => stackSize;
 
     // func overload, will only apply if args are provided
@@ -27,12 +27,12 @@ public class InventorySlot
     }
     
     public bool RoomLeftInStack(int amountToAdd, out int amountRemaining) {
-        amountRemaining = itemData.MaxStackSize - stackSize;
+        amountRemaining = ItemData.MaxStackSize - stackSize;
         return RoomLeftInStack(amountToAdd);
     }
 
     public bool RoomLeftInStack(int amountToAdd) {
-        if(stackSize + amountToAdd <= itemData.MaxStackSize) {
+        if(stackSize + amountToAdd <= ItemData.MaxStackSize) {
             return true;
         } else {
             return false;
