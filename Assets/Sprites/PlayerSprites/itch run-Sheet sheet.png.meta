@@ -1,0 +1,856 @@
+fileFormatVersion: 2
+guid: 3939504c517645b4ca84a733cd58b0d9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -17, y: 8}
+        - {x: -23, y: -2}
+        - {x: -22, y: -26}
+        - {x: -21, y: -28}
+        - {x: -8, y: -28}
+        - {x: 3, y: -16}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bebd877ea4a3f48a28424e9cb40f0f
+      internalID: 550148366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17, y: 9}
+        - {x: -24, y: 5}
+        - {x: -19, y: -28}
+        - {x: -6, y: -28}
+        - {x: 4, y: -14}
+        - {x: 4, y: -1}
+        - {x: 0, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a428cf22d87347641b5f3b4b1dfccdac
+      internalID: -1919146405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: 11}
+        - {x: -22, y: 9}
+        - {x: -24, y: -3}
+        - {x: -28, y: -28}
+        - {x: -2, y: -28}
+        - {x: 0, y: -20}
+        - {x: 3, y: 3}
+        - {x: -4, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602134f84b74e8042bba077893945c38
+      internalID: -599534279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -19, y: 12}
+        - {x: -24, y: 4}
+        - {x: -25, y: -28}
+        - {x: 2, y: -28}
+        - {x: 3, y: -23}
+        - {x: 4, y: 0}
+        - {x: -2, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad4e708ec0cc3547a29712e38e9c8f8
+      internalID: -305303147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 10}
+        - {x: -16, y: 10}
+        - {x: -22, y: 8}
+        - {x: -23, y: 0}
+        - {x: -23, y: -14}
+        - {x: -20, y: -28}
+        - {x: -2, y: -28}
+        - {x: 1, y: -26}
+        - {x: 2, y: -16}
+        - {x: 2, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ebabcf27ee641499a172d5aba4ec3e
+      internalID: 28408914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 7}
+        - {x: -14, y: 7}
+        - {x: -21, y: 3}
+        - {x: -21, y: -27}
+        - {x: -18, y: -28}
+        - {x: -6, y: -28}
+        - {x: -3, y: -28}
+        - {x: -1, y: -26}
+        - {x: 0, y: -21}
+        - {x: 0, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a909012357dc674696f2f603cdc6195
+      internalID: -1866458332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: 4}
+        - {x: -13, y: 4}
+        - {x: -20, y: -4}
+        - {x: -20, y: -26}
+        - {x: -15, y: -28}
+        - {x: -3, y: -28}
+        - {x: -1, y: -27}
+        - {x: 0, y: -15}
+        - {x: 0, y: 1}
+        - {x: -4, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11f87b08a12bcd4985cc86cb829c2f8
+      internalID: -1458541169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 3}
+        - {x: -19, y: 0}
+        - {x: -19, y: -24}
+        - {x: -13, y: -28}
+        - {x: -3, y: -28}
+        - {x: 0, y: -15}
+        - {x: 0, y: 1}
+        - {x: -3, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c49a8c778184444994728709327a906
+      internalID: 1658495516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 1}
+        - {x: -19, y: -4}
+        - {x: -19, y: -20}
+        - {x: -15, y: -28}
+        - {x: -8, y: -28}
+        - {x: 0, y: -17}
+        - {x: 0, y: -1}
+        - {x: -4, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473f9006821c9924298bab028034ee64
+      internalID: 1688999294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 4}
+        - {x: -20, y: -1}
+        - {x: -20, y: -25}
+        - {x: -15, y: -28}
+        - {x: -10, y: -28}
+        - {x: 0, y: -20}
+        - {x: 0, y: 3}
+        - {x: -4, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2189aaeead802c44383c516de8279efd
+      internalID: 306243673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -4}
+        - {x: 1, y: 0}
+        - {x: -4, y: 4}
+        - {x: -12, y: 4}
+        - {x: -18, y: -1}
+        - {x: -21, y: -10}
+        - {x: -21, y: -18}
+        - {x: -18, y: -27}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: -5, y: -24}
+        - {x: -3, y: -20}
+        - {x: 2, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa21e3d4bb2b3bd4ebbdb809dd665c01
+      internalID: -2120967085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 6}
+        - {x: -18, y: 2}
+        - {x: -20, y: -3}
+        - {x: -20, y: -27}
+        - {x: -19, y: -28}
+        - {x: -6, y: -28}
+        - {x: 4, y: -19}
+        - {x: 4, y: 4}
+        - {x: -5, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aa1bc7312da054b8f3bea50efc4398
+      internalID: 635462543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -16, y: 8}
+        - {x: -21, y: 1}
+        - {x: -21, y: -28}
+        - {x: -7, y: -28}
+        - {x: 0, y: -25}
+        - {x: 6, y: -7}
+        - {x: 6, y: -2}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bf54ecb4bc1914d8dfdaa6e825b92f
+      internalID: -1985321459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 9}
+        - {x: -22, y: 0}
+        - {x: -22, y: -28}
+        - {x: -6, y: -28}
+        - {x: -1, y: -27}
+        - {x: 5, y: -7}
+        - {x: 5, y: 0}
+        - {x: -4, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9731ca9ca77e8b34babe21d966d6a2cc
+      internalID: -746919298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 10}
+        - {x: -3, y: 11}
+        - {x: -17, y: 11}
+        - {x: -23, y: 1}
+        - {x: -23, y: -28}
+        - {x: -1, y: -28}
+        - {x: 5, y: -25}
+        - {x: 5, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782d78003231d94489777231de797449
+      internalID: 158113901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 3}
+        - {x: -5, y: 12}
+        - {x: -15, y: 12}
+        - {x: -23, y: 9}
+        - {x: -23, y: -28}
+        - {x: 2, y: -28}
+        - {x: 2, y: -25}
+        - {x: 0, y: -11}
+        - {x: 5, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1561cfb308df0428a0c8785dec4d89
+      internalID: 980630653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 10}
+        - {x: -18, y: 10}
+        - {x: -24, y: -2}
+        - {x: -24, y: -25}
+        - {x: -22, y: -28}
+        - {x: 2, y: -28}
+        - {x: 4, y: -22}
+        - {x: 4, y: 6}
+        - {x: 3, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15c75cc0cb3dd747a62b04f3e568e08
+      internalID: -1806916665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 8}
+        - {x: -17, y: 8}
+        - {x: -19, y: 5}
+        - {x: -21, y: 0}
+        - {x: -21, y: -27}
+        - {x: -14, y: -28}
+        - {x: -2, y: -28}
+        - {x: 0, y: -26}
+        - {x: 4, y: -18}
+        - {x: 4, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c223e4b6ccde4454c8833ae69bc44f76
+      internalID: -490928587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18, y: 5}
+        - {x: -19, y: 3}
+        - {x: -19, y: -28}
+        - {x: -11, y: -28}
+        - {x: 0, y: -28}
+        - {x: 2, y: -18}
+        - {x: 2, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8c4f455d88f5e48ae14a645cf3e8fb
+      internalID: 1227228913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: 3}
+        - {x: -18, y: 2}
+        - {x: -18, y: -25}
+        - {x: -14, y: -28}
+        - {x: -2, y: -28}
+        - {x: 2, y: -17}
+        - {x: 2, y: 1}
+        - {x: -1, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd70c9c43a130754bad4364fcee5631c
+      internalID: 193217188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 2}
+        - {x: -18, y: 0}
+        - {x: -19, y: -21}
+        - {x: -18, y: -26}
+        - {x: -14, y: -28}
+        - {x: -3, y: -28}
+        - {x: 2, y: -15}
+        - {x: 2, y: 0}
+        - {x: 1, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b1f611dff9a5c4eb6363a8c9889c4d
+      internalID: -1508092663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 3}
+        - {x: -11, y: 3}
+        - {x: -17, y: 0}
+        - {x: -19, y: -10}
+        - {x: -20, y: -19}
+        - {x: -13, y: -28}
+        - {x: -8, y: -28}
+        - {x: 2, y: -20}
+        - {x: 2, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b708e2d67eb084d808c38df6af12c2
+      internalID: 1241643538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 4}
+        - {x: -21, y: 2}
+        - {x: -21, y: -28}
+        - {x: -6, y: -28}
+        - {x: 3, y: -22}
+        - {x: 3, y: -5}
+        - {x: -2, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2b897a89b2ae145a5a60aad1e6bf98
+      internalID: 1507004188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itch run-Sheet sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 16
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 5}
+        - {x: -21, y: 4}
+        - {x: -21, y: -28}
+        - {x: -7, y: -28}
+        - {x: 5, y: -19}
+        - {x: 5, y: -9}
+        - {x: -3, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfea17401efe2ae4e8f13143c5f283c0
+      internalID: -217345420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      itch run-Sheet sheet_10: -2120967085
+      itch run-Sheet sheet_18: 1227228913
+      itch run-Sheet sheet_19: 193217188
+      itch run-Sheet sheet_6: -1458541169
+      itch run-Sheet sheet_3: -305303147
+      itch run-Sheet sheet_4: 28408914
+      itch run-Sheet sheet_15: 980630653
+      itch run-Sheet sheet_2: -599534279
+      itch run-Sheet sheet_8: 1688999294
+      itch run-Sheet sheet_5: -1866458332
+      itch run-Sheet sheet_11: 635462543
+      itch run-Sheet sheet_17: -490928587
+      itch run-Sheet sheet_22: 1507004188
+      itch run-Sheet sheet_23: -217345420
+      itch run-Sheet sheet_0: 550148366
+      itch run-Sheet sheet_7: 1658495516
+      itch run-Sheet sheet_14: 158113901
+      itch run-Sheet sheet_13: -746919298
+      itch run-Sheet sheet_12: -1985321459
+      itch run-Sheet sheet_9: 306243673
+      itch run-Sheet sheet_21: 1241643538
+      itch run-Sheet sheet_20: -1508092663
+      itch run-Sheet sheet_1: -1919146405
+      itch run-Sheet sheet_16: -1806916665
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
