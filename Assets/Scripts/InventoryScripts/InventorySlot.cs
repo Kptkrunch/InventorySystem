@@ -25,6 +25,11 @@ public class InventorySlot
         itemData = null;
         stackSize = -1;
     }
+
+    public void UpdateInventorySlot(InventoryItemData data, int amount) {
+        itemData = data;
+        stackSize = amount;
+    }
     
     // make sure we check stack size and can't go over
     public bool RoomLeftInStack(int amountToAdd, out int amountRemaining) {

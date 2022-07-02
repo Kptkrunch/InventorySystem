@@ -22,4 +22,28 @@ public class InventorySystem
             inventorySlots.Add(new InventorySlot());
         }
     }
+
+    public bool AddToInventory(InventoryItemData itemToAdd, int amountToAdd) {
+        if(ContainsItem(itemToAdd, out InventorySlot invSlot)) {
+            invSlot.AddToStack(amountToAdd);
+            OnInventorySlotChanged?.Invoke(invSlot);
+            return true;
+        } else if(hasFreeSlot(out InventorySlot freeSlot)) {
+            freeSlot.UpdateInventorySlot(itemToAdd, amountToAdd);
+            OnInventorySlotChanged?.Invoke(freeSlot);
+            return true;
+        }
+
+        return false;
+    }
+
+    public void ContainsItem(InventoryItemData, out InventorySlot invSlot) {
+        invSlot = null;
+        return false;
+    }
+
+    public bool hasFreeSlot(out InventorySlot freeSlot) {
+        invSlot = null;
+        return false;
+    }
 }
