@@ -24,11 +24,20 @@ public class InventorySystem
     }
 
     public bool AddToInventory(InventoryItemData itemToAdd, int amountToAdd) {
-        if(ContainsItem(itemToAdd, out InventorySlot invSlot)) {
-            invSlot.AddToStack(amountToAdd);
-            OnInventorySlotChanged?.Invoke(invSlot);
-            return true;
-        } else if(hasFreeSlot(out InventorySlot freeSlot)) {
+
+        if(ContainsItem(itemToAdd, out List<InventorySlot> invSlot)) {
+            foreach (var slot in invSlot) {
+                
+                if(slot.RoomLeftInStack(amountToAdd)) {
+                    slot.AddToStack(amountToAdd);
+                    OnInventorySlotChanged?.Invoke(slot);
+                    return true;
+                }   
+            }
+
+        }
+        
+        if(HasFreeSlot(out InventorySlot freeSlot)) {
             freeSlot.UpdateInventorySlot(itemToAdd, amountToAdd);
             OnInventorySlotChanged?.Invoke(freeSlot);
             return true;
@@ -37,13 +46,16 @@ public class InventorySystem
         return false;
     }
 
-    public void ContainsItem(InventoryItemData, out InventorySlot invSlot) {
-        invSlot = null;
-        return false;
+    public bool ContainsItem(InventoryItemData itemToAdd, out List<InventorySlot> invSlot) {
+
+        invSlot = InventorySlots.Where(i => i.ItemData == itemToAdd).ToList();
+
+        return invSlot == null? false : true;
+        // InventorySlots.First(slot => slop.ItemData.MaxStackSize > 5);
     }
 
-    public bool hasFreeSlot(out InventorySlot freeSlot) {
-        invSlot = null;
-        return false;
+    public bool HasFreeSlot(out InventorySlot freeSlot) {
+        freeSlot = InventorySlots.FirstOrDefault(i => i.ItemData == null);
+        return freeSlot == null? false : true; 
     }
 }
