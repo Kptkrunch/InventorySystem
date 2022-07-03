@@ -8,14 +8,17 @@ public class ItemPickup : MonoBehaviour
 {
 
     Animator itemAnimator;
+    Rigidbody2D itemRB2D;
+    CircleCollider2D itemCollider;
 
     public float PickUpRadius = 1f;
     public InventoryItemData ItemData;
 
-    CircleCollider2D itemCollider;
+
 
     private void Awake() {
         itemAnimator = GetComponent<Animator>();
+        itemRB2D = GetComponent<Rigidbody2D>();
         itemCollider = GetComponent<CircleCollider2D>();    
         itemCollider.isTrigger = true;
         itemCollider.radius = PickUpRadius;
@@ -29,7 +32,7 @@ public class ItemPickup : MonoBehaviour
         }
 
         if(inventory.InventorySystem.AddToInventory(ItemData, 1)) {
-            itemAnimator.Play("MagicAbsorb");
+            itemAnimator.Play("CinderPuff", -1);
             Destroy(this.gameObject, itemAnimator.GetCurrentAnimatorStateInfo(0).length);
 
         }
