@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Background
   - Item
+  - GUI
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - GUI
   - 
   - 
   - 
@@ -58,4 +59,7 @@ TagManager:
     locked: 0
   - name: Items
     uniqueID: 68309637
+    locked: 0
+  - name: GUI
+    uniqueID: 979383553
     locked: 0

@@ -32,7 +32,7 @@ public class ItemPickup : MonoBehaviour
         }
 
         if(inventory.InventorySystem.AddToInventory(ItemData, 1)) {
-            itemAnimator.Play("CinderPuff", -1);
+            itemAnimator.Play("ItemCollect2", -1);
             Destroy(this.gameObject, itemAnimator.GetCurrentAnimatorStateInfo(0).length);
 
         }

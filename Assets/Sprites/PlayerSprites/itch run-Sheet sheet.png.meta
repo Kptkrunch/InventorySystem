@@ -826,7 +826,7 @@ TextureImporter:
     nameFileIdTable:
       itch run-Sheet sheet_10: -2120967085
       itch run-Sheet sheet_18: 1227228913
-      itch run-Sheet sheet_19: 193217188
+      itch run-Sheet sheet_1: -1919146405
       itch run-Sheet sheet_6: -1458541169
       itch run-Sheet sheet_3: -305303147
       itch run-Sheet sheet_4: 28408914
@@ -846,8 +846,8 @@ TextureImporter:
       itch run-Sheet sheet_9: 306243673
       itch run-Sheet sheet_21: 1241643538
       itch run-Sheet sheet_20: -1508092663
-      itch run-Sheet sheet_1: -1919146405
       itch run-Sheet sheet_16: -1806916665
+      itch run-Sheet sheet_19: 193217188
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
