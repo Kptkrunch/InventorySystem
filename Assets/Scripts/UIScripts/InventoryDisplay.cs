@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -8,11 +9,15 @@ public abstract class InventoryDisplay : MonoBehaviour
 {
     [SerializeField] MouseItemData mouseInventoryItem;
     
-    protected InventorySystem InventorySystem;
+    protected InventorySystem inventorySystem;
     protected Dictionary<InventorySlotUI, InventorySlot> slotDictionary;
 
     public InventorySystem InventorySystem => inventorySystem;
     public Dictionary<InventorySlotUI, InventorySlot> SlotDictionary => slotDictionary;
+
+    protected virtual void Start() {
+
+    }
 
     public abstract void AssignSlot(InventorySystem invToDisplay);
 
@@ -22,7 +27,6 @@ public abstract class InventoryDisplay : MonoBehaviour
                 slot.Key.UpdateUISlot(updatedSlot); // slot key - the UI representation of the value
             }
         }
-
     }
 
     public void SlotClicked(InventorySlotUI clickedSlot) {

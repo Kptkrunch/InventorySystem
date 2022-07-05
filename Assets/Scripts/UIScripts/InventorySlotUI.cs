@@ -13,7 +13,7 @@ public class InventorySlotUI : MonoBehaviour
     private Button button;
 
     public InventorySlot AssignedInventorySlot => assignedInventorySlot;
-    public InventoryDisplay { get; private set; }
+    public InventoryDisplay ParentDisplay { get; private set; }
 
     private void Awake() {
         ClearSlot();
