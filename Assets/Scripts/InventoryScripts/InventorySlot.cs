@@ -32,8 +32,8 @@ public class InventorySlot
 
             AddToStack(invSlot.stackSize);
         } else {
-            
-            itemData = invSlot.ItemData;
+
+            itemData = invSlot.itemData;
             stackSize = 0;
             AddToStack(invSlot.stackSize);
         }
