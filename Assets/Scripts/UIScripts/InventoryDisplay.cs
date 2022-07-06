@@ -33,8 +33,12 @@ public abstract class InventoryDisplay : MonoBehaviour
         
 
         // clicked slot has item, 
-        if(clickedUISlot.AssignedInventorySlot.ItemData != null && mouseInventoryItem) {
+        if(clickedUISlot.AssignedInventorySlot.ItemData != null && mouseInventoryItem.AssignedInventorySlot.ItemData == null) {
+            // if shift key split stack
 
+            mouseInventoryItem.UpdateMouseSlot(clickedUISlot.AssignedInventorySlot);
+            clickedUISlot.ClearSlot();
+            return;
         }
     }
 }
