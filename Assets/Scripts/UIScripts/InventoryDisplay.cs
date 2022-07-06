@@ -29,7 +29,12 @@ public abstract class InventoryDisplay : MonoBehaviour
         }
     }
 
-    public void SlotClicked(InventorySlotUI clickedSlot) {
-        Debug.Log("Slot Clicked");
+    public void SlotClicked(InventorySlotUI clickedUISlot) {
+        
+
+        // clicked slot has item, 
+        if(clickedUISlot.AssignedInventorySlot.ItemData != null && mouseInventoryItem) {
+
+        }
     }
 }
