@@ -30,15 +30,20 @@ public abstract class InventoryDisplay : MonoBehaviour
     }
 
     public void SlotClicked(InventorySlotUI clickedUISlot) {
-        
-
-        // clicked slot has item, 
         if(clickedUISlot.AssignedInventorySlot.ItemData != null && mouseInventoryItem.AssignedInventorySlot.ItemData == null) {
             // if shift key split stack
 
             mouseInventoryItem.UpdateMouseSlot(clickedUISlot.AssignedInventorySlot);
             clickedUISlot.ClearSlot();
             return;
+        }
+
+        if(clickedUISlot.AssignedInventorySlot.ItemData == null && mouseInventoryItem.AssignedInventorySlot.ItemData !=null) {
+
+            clickedUISlot.AssignedInventorySlot.AssignItem(mouseInventoryItem.AssignedInventorySlot);
+            clickedUISlot.UpdateUISlot();
+
+            mouseInventoryItem.ClearSlot();
         }
     }
 }
