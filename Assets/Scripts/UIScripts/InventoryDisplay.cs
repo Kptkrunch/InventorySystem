@@ -77,6 +77,7 @@ public abstract class InventoryDisplay : MonoBehaviour
 
                 if(leftInStack < 1) {
                     SwapSlots(clickedUISlot);  // if left in stack is less than 1 then there is 0 room in the stack
+                    
                 } else {
                     int remainingOnMouse = mouseInventoryItem.AssignedInventorySlot.StackSize - leftInStack;
                     clickedUISlot.AssignedInventorySlot.AddToStack(leftInStack);
