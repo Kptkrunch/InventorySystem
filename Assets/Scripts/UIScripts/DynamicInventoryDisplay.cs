@@ -10,11 +10,13 @@ public class DynamicInventoryDisplay : InventoryDisplay
     protected override void Start() {
         
         base.Start();
-
     }
 
     public void RefreshDynamicInventory(InventorySystem invToDisplay) {
+    
+        ClearSlots();
         inventorySystem = invToDisplay;
+        AssignSlot(invToDisplay);
     }
 
     public override void AssignSlot(InventorySystem invToDisplay) {
