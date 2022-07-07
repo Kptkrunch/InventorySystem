@@ -107,10 +107,10 @@ TextureImporter:
       name: Chests_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 224
-        width: 28
-        height: 20
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +128,10 @@ TextureImporter:
       name: Chests_1
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 224
-        width: 28
-        height: 20
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: Chests_2
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 224
-        width: 29
-        height: 19
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +170,10 @@ TextureImporter:
       name: Chests_3
       rect:
         serializedVersion: 2
-        x: 145
+        x: 144
         y: 224
-        width: 29
-        height: 19
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: Chests_4
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 224
-        width: 28
-        height: 21
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: Chests_5
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 192
-        width: 29
-        height: 21
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,10 +233,10 @@ TextureImporter:
       name: Chests_6
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 192
-        width: 30
-        height: 23
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: Chests_7
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 192
-        width: 40
-        height: 9
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: Chests_8
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 192
-        width: 39
-        height: 11
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,10 +296,10 @@ TextureImporter:
       name: Chests_9
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 192
-        width: 39
-        height: 11
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,10 +317,10 @@ TextureImporter:
       name: Chests_10
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 160
-        width: 28
-        height: 20
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +338,10 @@ TextureImporter:
       name: Chests_11
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 160
-        width: 28
-        height: 20
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,10 +359,10 @@ TextureImporter:
       name: Chests_12
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 160
-        width: 29
-        height: 19
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: Chests_13
       rect:
         serializedVersion: 2
-        x: 145
+        x: 144
         y: 160
-        width: 29
-        height: 19
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,10 +401,10 @@ TextureImporter:
       name: Chests_14
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 160
-        width: 28
-        height: 21
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +422,10 @@ TextureImporter:
       name: Chests_15
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 128
-        width: 29
-        height: 21
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,10 +443,10 @@ TextureImporter:
       name: Chests_16
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 128
-        width: 30
-        height: 23
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +464,10 @@ TextureImporter:
       name: Chests_17
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 128
-        width: 40
-        height: 9
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +485,10 @@ TextureImporter:
       name: Chests_18
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 128
-        width: 39
-        height: 11
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,10 +506,10 @@ TextureImporter:
       name: Chests_19
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 128
-        width: 39
-        height: 11
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,10 +527,10 @@ TextureImporter:
       name: Chests_20
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 96
-        width: 28
-        height: 20
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,10 +548,10 @@ TextureImporter:
       name: Chests_21
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 96
-        width: 28
-        height: 20
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: Chests_22
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 96
-        width: 29
-        height: 19
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: Chests_23
       rect:
         serializedVersion: 2
-        x: 145
+        x: 144
         y: 96
-        width: 29
-        height: 19
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -611,10 +611,10 @@ TextureImporter:
       name: Chests_24
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 96
-        width: 28
-        height: 21
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +632,10 @@ TextureImporter:
       name: Chests_25
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 64
-        width: 29
-        height: 21
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -653,10 +653,10 @@ TextureImporter:
       name: Chests_26
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 64
-        width: 30
-        height: 23
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -674,10 +674,10 @@ TextureImporter:
       name: Chests_27
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 64
-        width: 40
-        height: 9
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -695,10 +695,10 @@ TextureImporter:
       name: Chests_28
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 64
-        width: 39
-        height: 11
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,10 +716,10 @@ TextureImporter:
       name: Chests_29
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 64
-        width: 39
-        height: 11
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -737,10 +737,10 @@ TextureImporter:
       name: Chests_30
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 32
-        width: 28
-        height: 20
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -758,10 +758,10 @@ TextureImporter:
       name: Chests_31
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 32
-        width: 28
-        height: 20
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -779,10 +779,10 @@ TextureImporter:
       name: Chests_32
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 32
-        width: 29
-        height: 19
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,10 +800,10 @@ TextureImporter:
       name: Chests_33
       rect:
         serializedVersion: 2
-        x: 145
+        x: 144
         y: 32
-        width: 29
-        height: 19
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -821,10 +821,10 @@ TextureImporter:
       name: Chests_34
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 32
-        width: 28
-        height: 21
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,10 +842,10 @@ TextureImporter:
       name: Chests_35
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 29
-        height: 21
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,10 +863,10 @@ TextureImporter:
       name: Chests_36
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 0
-        width: 30
-        height: 23
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -884,10 +884,10 @@ TextureImporter:
       name: Chests_37
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 0
-        width: 40
-        height: 9
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -905,10 +905,10 @@ TextureImporter:
       name: Chests_38
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 0
-        width: 39
-        height: 11
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -926,10 +926,10 @@ TextureImporter:
       name: Chests_39
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 0
-        width: 39
-        height: 11
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -954,6 +954,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Chests_35: -406897002
       Chests_9: 196159660
       Chests_11: -1691486597
       Chests_36: 1568129891
@@ -986,7 +987,6 @@ TextureImporter:
       Chests_10: 1559335811
       Chests_4: -1032440107
       Chests_22: 1446895128
-      Chests_35: -406897002
       Chests_1: 1143816237
       Chests_8: 2084398645
       Chests_12: 766189602

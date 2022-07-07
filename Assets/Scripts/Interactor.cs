@@ -35,7 +35,6 @@ public class Interactor : MonoBehaviour
 
     void EndInteraction() {
         IsInteracting = false;
-        Destroy(this.gameObject);
     }
 
 }
