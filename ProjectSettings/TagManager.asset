@@ -8,6 +8,8 @@ TagManager:
   - Background
   - Item
   - GUI
+  - Interactible
+  - Lootable
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Ground
   - 
   - Background
-  - 
+  - Interactible
   - 
   - Items
   - 
