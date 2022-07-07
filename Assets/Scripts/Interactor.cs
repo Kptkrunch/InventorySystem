@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class Interactor : MonoBehaviour
 {
@@ -12,9 +13,10 @@ public class Interactor : MonoBehaviour
 
     private void Update() {
 
-        var colliders = Physics.OverlapSphere(InteractionPoint.position, InteractionPointRadius, InteractionLayer);
+        var colliders = Physics2D.OverlapCircleAll(InteractionPoint.position, InteractionPointRadius, InteractionLayer);
 
         if (Keyboard.current.eKey.wasPressedThisFrame) {
+            Debug.Log("e was pressed, woohoo");
             for (int i = 0; i < colliders.Length; i++) {
                 var interactible = colliders[i].GetComponent<IInteractible>();
 
@@ -33,6 +35,7 @@ public class Interactor : MonoBehaviour
 
     void EndInteraction() {
         IsInteracting = false;
+        Destroy(this.gameObject);
     }
 
 }
