@@ -32,6 +32,6 @@ public class ChestInventory : InventoryHolder, IInteractible {
     }
 
     public void EndInteraction() {
-
+        chestAnimator.Play("CloseChest");
     }
 }
