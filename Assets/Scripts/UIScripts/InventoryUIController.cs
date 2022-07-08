@@ -20,13 +20,13 @@ public class InventoryUIController : MonoBehaviour
     }
 
     void Update() {
-        if(Keyboard.current.bKey.wasPressedThisFrame) {
+        if(Keyboard.current.iKey.wasPressedThisFrame) {
             
             DisplayInventory(new InventorySystem(20));
-            Debug.Log("b was pressed");
+            Debug.Log("I was pressed");
         }
 
-        if(inventoryPanel.gameObject.activeInHierarchy && Keyboard.current.escapeKey.wasPressedThisFrame) {
+        if(inventoryPanel.gameObject.activeInHierarchy && Keyboard.current.rKey.wasPressedThisFrame) {
             inventoryPanel.gameObject.SetActive(false);
         }
     }

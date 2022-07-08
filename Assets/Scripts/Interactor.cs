@@ -12,12 +12,19 @@ public class Interactor : MonoBehaviour
 
     private void Update() {
 
-        var colliders = Physics.OverlapSphere(InteractionPoint.position, InteractionPointRadius, InteractionLayer);
+        var colliders = Physics2D.OverlapCircleAll(InteractionPoint.position, InteractionPointRadius, InteractionLayer);
 
         if (Keyboard.current.eKey.wasPressedThisFrame) {
-            for (int i = 0; i < colliders.Length; i++) {
-                var interactible = colliders[i].GetComponent<IInteractible>();
 
+            //Debug.Log("Interacting with chest");
+            // Debug.Log($"colliders {colliders.Length}");
+            //Debug.Log($"colliders {colliders[1].ToString()}");
+
+
+            for (int i = 0; i < colliders.Length; i++) {
+
+                var interactible = colliders[i].GetComponent<IInteractible>();
+                Debug.Log($"This is the interactible item {interactible}");
                 if (interactible != null) {
                     StartInteraction(interactible);
                 }
@@ -29,6 +36,7 @@ public class Interactor : MonoBehaviour
 
         interactible.Interact(this, out bool interactSuccessful);
         IsInteracting = true;
+
     }
 
     void EndInteraction() {

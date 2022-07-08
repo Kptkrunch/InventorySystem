@@ -65,3 +65,6 @@ TagManager:
   - name: GUI
     uniqueID: 979383553
     locked: 0
+  - name: Interactible
+    uniqueID: 2942323173
+    locked: 0
