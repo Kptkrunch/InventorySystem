@@ -8,8 +8,16 @@ public class DynamicInventoryDisplay : InventoryDisplay
     [SerializeField] protected InventorySlotUI slotPrefab;
 
     protected override void Start() {
+
+        InventoryHolder.OnDynamicInventoryDisplayRequested += RefreshDynamicInventory;
         
         base.Start();
+        AssignSlot(inventorySystem);
+    }
+
+    private void OnDestroy() {
+        InventoryHolder.OnDynamicInventoryDisplayRequested -= RefreshDynamicInventory;
+
     }
 
     public void RefreshDynamicInventory(InventorySystem invToDisplay) {
@@ -30,7 +38,9 @@ public class DynamicInventoryDisplay : InventoryDisplay
         }
 
         for(int i = 0; i < invToDisplay.InventorySize; i++) {
+
             var uiSlot = Instantiate(slotPrefab, transform);
+
             slotDictionary.Add(uiSlot, invToDisplay.InventorySlots[i]);
             uiSlot.Init(invToDisplay.InventorySlots[i]);
             uiSlot.UpdateUISlot();

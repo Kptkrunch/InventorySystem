@@ -25,11 +25,16 @@ public class StaticInventoryDisplay : InventoryDisplay
     public override void AssignSlot(InventorySystem invToDisplay) {
         slotDictionary = new Dictionary<InventorySlotUI, InventorySlot>();
 
-        if(slots.Length != inventorySystem.InventorySize) {
+        Debug.Log(slots);
+        Debug.Log(inventorySystem.ToString());
+
+        if (slots.Length != inventorySystem.InventorySize) {
+            Debug.Log(slots.Length);
             Debug.LogWarning($"Inventory Slots out of sysnc on {this.gameObject}");
         }
 
         for(int i = 0; i < inventorySystem.InventorySize; i++) {
+            Debug.Log($"this is {slots[i]}");
             slotDictionary.Add(slots[i], inventorySystem.InventorySlots[i]);
             slots[i].Init(inventorySystem.InventorySlots[i]);
         }
