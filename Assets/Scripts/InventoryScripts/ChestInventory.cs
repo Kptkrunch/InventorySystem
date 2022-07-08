@@ -8,7 +8,7 @@ public class ChestInventory : InventoryHolder, IInteractible {
     private bool isOpen = false;
 
     Animator chestAnimator;
-    private void Awake() {
+    private void Start() {
         chestAnimator = GetComponent<Animator>();
     }
 
@@ -19,7 +19,7 @@ public class ChestInventory : InventoryHolder, IInteractible {
         if (!isOpen) {
 
             chestAnimator.Play("OpenChest");
-            OnDynamicInventoryDisplayRequested?.Invoke(inventorySystem);
+            OnDynamicInventoryDisplayRequested?.Invoke(primaryInventorySystem);
             interactSuccessful = true;
             isOpen = true;
         } else {
