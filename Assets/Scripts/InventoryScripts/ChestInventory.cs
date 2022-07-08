@@ -8,8 +8,10 @@ public class ChestInventory : InventoryHolder, IInteractible {
     private bool isOpen = false;
 
     Animator chestAnimator;
+    InventoryUIController chestUIController;
     private void Start() {
         chestAnimator = GetComponent<Animator>();
+        chestUIController = GetComponent<InventoryUIController>();
     }
 
     public UnityAction<IInteractible> OnInteractionComplete { get; set; }
@@ -24,14 +26,15 @@ public class ChestInventory : InventoryHolder, IInteractible {
             isOpen = true;
         } else {
 
-            chestAnimator.Play("CloseChest");
-            //OnDynamicInventoryDisplayRequested?.Invoke(inventorySystem);
-            interactSuccessful = true;
-            isOpen = false;
+            interactSuccessful = false;
+            EndInteraction();
         }   
     }
 
     public void EndInteraction() {
-
+        chestAnimator.Play("CloseChest");
+        chestUIController.inventoryPanel.gameObject.SetActive(false);
+        //OnDynamicInventoryDisplayRequested?.Invoke(inventorySystem);
+        isOpen = false;
     }
 }
