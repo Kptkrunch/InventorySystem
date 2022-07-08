@@ -13,7 +13,7 @@ public class StaticInventoryDisplay : InventoryDisplay
         base.Start();
 
         if(inventoryHolder != null) {
-            inventorySystem = inventoryHolder.PrimaryInventorySystem;
+            inventorySystem = inventoryHolder.InventorySystem;
             inventorySystem.OnInventorySlotChanged += UpdateSlot;
         } else {
             Debug.LogWarning($"No inventory assigned to {this.gameObject}");
@@ -24,6 +24,9 @@ public class StaticInventoryDisplay : InventoryDisplay
 
     public override void AssignSlot(InventorySystem invToDisplay) {
         slotDictionary = new Dictionary<InventorySlotUI, InventorySlot>();
+
+        Debug.Log(slots);
+        Debug.Log(inventorySystem.ToString());
 
         if (slots.Length != inventorySystem.InventorySize) {
             Debug.LogWarning($"Inventory Slots out of sysnc on {this.gameObject}");
