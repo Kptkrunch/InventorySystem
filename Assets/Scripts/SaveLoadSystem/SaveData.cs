@@ -8,6 +8,6 @@ namespace SaveLoadSystem {
     public class SaveData {
 
         public int index = 1;
-        [SerializeField] private float myFloat = 10f;
+        [SerializeField] private float myFloat = 5.5f;
     }
 }
