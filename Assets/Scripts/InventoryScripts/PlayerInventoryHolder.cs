@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class PlayerInventoryHolder : InventoryHolder
@@ -9,6 +10,7 @@ public class PlayerInventoryHolder : InventoryHolder
     [SerializeField] protected InventorySystem secondaryInventorySystem;
 
     public InventorySystem SecondInventorySystem => secondaryInventorySystem;
+    public static UnityAction<InventorySystem> OnPlayerBPDisplayRequested;
 
     protected override void Awake() {
         base.Awake();
@@ -19,7 +21,7 @@ public class PlayerInventoryHolder : InventoryHolder
     void Update()
     {
         if(Keyboard.current.iKey.wasPressedThisFrame) {
-            OnDynamicInventoryDisplayRequested?.Invoke(secondaryInventorySystem);
+            OnPlayerBPDisplayRequested?.Invoke(secondaryInventorySystem);
         }
     }
 

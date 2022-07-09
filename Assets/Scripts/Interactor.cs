@@ -16,11 +16,6 @@ public class Interactor : MonoBehaviour
 
         if (Keyboard.current.eKey.wasPressedThisFrame) {
 
-            //Debug.Log("Interacting with chest");
-            // Debug.Log($"colliders {colliders.Length}");
-            //Debug.Log($"colliders {colliders[1].ToString()}");
-
-
             for (int i = 0; i < colliders.Length; i++) {
 
                 var interactible = colliders[i].GetComponent<IInteractible>();
