@@ -7,15 +7,18 @@ public class ChestInventory : InventoryHolder, IInteractible {
 
     private bool isOpen = false;
 
+    //public GameObject chestUIPanel;
     Animator chestAnimator;
 
     private void Start() {
         chestAnimator = GetComponent<Animator>();
+        //chestUIPanel = GameObject.Find("InventoryUIController");
     }
 
     public UnityAction<IInteractible> OnInteractionComplete { get; set; }
 
     public void Interact(Interactor interactor, out bool interactSuccessful) {
+
 
         if (!isOpen) {
 
@@ -26,8 +29,8 @@ public class ChestInventory : InventoryHolder, IInteractible {
         } else {
 
             interactSuccessful = true;
+            OnDynamicInventoryDisplayRequested?.Invoke(primaryInventorySystem);
             EndInteraction();
-
         }   
     }
 

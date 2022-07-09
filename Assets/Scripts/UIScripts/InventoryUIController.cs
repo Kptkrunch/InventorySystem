@@ -8,8 +8,6 @@ public class InventoryUIController : MonoBehaviour
     public DynamicInventoryDisplay chestPanel;
     public DynamicInventoryDisplay playerBPPanel;
 
-    private bool isOpen;
-
     private void Awake() {
         chestPanel.gameObject.SetActive(false);
     }
@@ -25,13 +23,6 @@ public class InventoryUIController : MonoBehaviour
     }
 
     void Update() {
-        /* 
-        if(Keyboard.current.bKey.wasPressedThisFrame) {
-            
-            DisplayInventory(new InventorySystem(20));
-            Debug.Log("B was pressed");
-        } 
-        */
 
         if(chestPanel.gameObject.activeInHierarchy && Keyboard.current.rKey.wasPressedThisFrame) {
             chestPanel.gameObject.SetActive(false);
@@ -50,5 +41,9 @@ public class InventoryUIController : MonoBehaviour
     void DisplayPlayerBP(InventorySystem invToDisplay) {
         playerBPPanel.gameObject.SetActive(true);
         playerBPPanel.RefreshDynamicInventory(invToDisplay);
+    }
+
+    public void CloseDisplay() {
+        chestPanel.gameObject.SetActive(false);
     }
 }

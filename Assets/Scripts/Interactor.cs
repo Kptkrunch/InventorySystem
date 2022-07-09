@@ -31,7 +31,6 @@ public class Interactor : MonoBehaviour
 
         interactible.Interact(this, out bool interactSuccessful);
         IsInteracting = true;
-
     }
 
     void EndInteraction() {
