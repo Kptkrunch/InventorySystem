@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,8 +5,7 @@ public class PlayerInputHandler : MonoBehaviour
 {
 	public GameObject playerPrefab;
 	private PlayerController playerController;
-
-
+	
 	private void Awake()
 	{
 		if (playerPrefab != null)
@@ -18,8 +14,9 @@ public class PlayerInputHandler : MonoBehaviour
 		}
 	}
 
-	void OnMove(InputAction.CallbackContext context)
+	public void OnMove(InputAction.CallbackContext context)
 	{
+		Debug.Log("OnMove being called");
 		playerController.OnMove(context);
 	}
 }
