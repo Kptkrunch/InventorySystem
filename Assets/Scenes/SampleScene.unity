@@ -46682,7 +46682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1234123407
 Transform:
   m_ObjectHideFlags: 0
@@ -46690,8 +46690,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234123406}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -923.7, y: -247.02272, z: -2.1381898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.98, y: -5.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -46759,8 +46759,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 34864dba45642b247a35485433ba9dec, type: 3}
-  m_NotificationBehavior: 0
+  m_Actions: {fileID: -944628639613478452, guid: 56b50c780eff5f641bf1ada41621922c, type: 3}
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -46774,7 +46774,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!95 &1234123412
@@ -46844,8 +46844,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.7267671, y: -0.77335376}
-  m_Size: {x: 0.95117605, y: 1.8429161}
+  m_Offset: {x: -0.008587241, y: -0.2603681}
+  m_Size: {x: 0.47238946, y: 1.6650805}
   m_Direction: 0
 --- !u!212 &1234123416
 SpriteRenderer:
@@ -46888,7 +46888,7 @@ SpriteRenderer:
   m_SortingLayerID: -1778813129
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1312116105, guid: 78c6119e652ba1540b2fce04214cd293, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2a5e70dd5423d8945a876db2334831ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -52438,6 +52438,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1680135246}
+  - component: {fileID: 1680135247}
+  - component: {fileID: 1680135248}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Untagged
@@ -52453,7 +52455,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680135245}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 908.6467, y: 245.73273, z: 2.1381898}
+  m_LocalPosition: {x: -4, y: 4, z: 2.1381898}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52461,6 +52463,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1680135247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680135245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299e286bd49c4a746b4e89e8bf5848c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!143 &1680135248
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680135245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1.65
+  m_Radius: 0.25
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: -15.03, y: -6.14, z: 0}
 --- !u!1 &1700810126
 GameObject:
   m_ObjectHideFlags: 0
@@ -64407,7 +64439,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.9495192, y: 1}
+    m_SensorSize: {x: 2.9007092, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
@@ -8,8 +6,8 @@ namespace SaveLoadSystem {
     public static class SaveGameManager {
         public static SaveData CurrentSaveData = new SaveData();
 
-        public const string SaveDirectory = "/SaveData/";
-        public const string FileName = "SaveGame.sav";
+        private const string SaveDirectory = "/SaveData/";
+        private const string FileName = "SaveGame.sav";
 
         public static bool SaveGame() {
 
@@ -36,8 +34,7 @@ namespace SaveLoadSystem {
                 string json = File.ReadAllText(fullPath);
                 tempData = JsonUtility.FromJson<SaveData>(json);
             } else {
-
-                Debug.Log("Save file not found, check your spelling doofus");
+                // place code here in the future
             }
 
             CurrentSaveData = tempData;

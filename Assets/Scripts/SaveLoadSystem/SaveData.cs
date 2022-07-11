@@ -1,12 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 namespace SaveLoadSystem {
     [System.Serializable]
 
     public class SaveData {
 
-        public PlayerData PlayerData = new PlayerData();
+        public PlayerData playerData = new PlayerData();
     }
 }
