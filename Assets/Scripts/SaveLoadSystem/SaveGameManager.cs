@@ -11,7 +11,7 @@ namespace SaveLoadSystem {
         public const string SaveDirectory = "/SaveData/";
         public const string FileName = "SaveGame.sav";
 
-        public static bool Save() {
+        public static bool SaveGame() {
 
             var dir = Application.persistentDataPath + SaveDirectory;
 
@@ -22,10 +22,28 @@ namespace SaveLoadSystem {
             string json = JsonUtility.ToJson(CurrentSaveData, true);
             File.WriteAllText(dir + FileName, json);
 
-            GUIUtility.systemCopyBuffer = dir + FileName;
+            GUIUtility.systemCopyBuffer = dir;
 
             return true;
         }
+
+        public static void LoadGame() {
+
+            string fullPath = Application.persistentDataPath + SaveDirectory + FileName;
+            SaveData tempData = new SaveData();
+
+            if (File.Exists(fullPath)) {
+                string json = File.ReadAllText(fullPath);
+                tempData = JsonUtility.FromJson<SaveData>(json);
+            } else {
+
+                Debug.Log("Save file not found, check your spelling doofus");
+            }
+
+            CurrentSaveData = tempData;
+        }
     }
+
+
 }
 
